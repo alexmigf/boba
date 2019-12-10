@@ -15,7 +15,7 @@ input[type="reset"],input[type="button"] {
         background-color: rgba(0, 0, 0, 0);
     }
 
-    &:hover, &:focus {
+    &:not(.no-hover):hover, &:not(.no-focus):focus {
         color: $color-white;
         background-color: darken-1($color-dark);
         border-color: darken-1($color-dark);
