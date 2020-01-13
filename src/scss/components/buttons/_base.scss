@@ -39,6 +39,10 @@ input[type="reset"],input[type="button"] {
     &.rounded {
         border-radius: $button-rounded-border-radius;
     }
+    
+    &.full-width {
+        width: 100%;
+    }
 
     &.outlined {
         &:hover, &:focus{
